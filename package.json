@@ -4,7 +4,6 @@
     "version": "0.3.8",
     "homepage": "http://github.com/volojs/volo",
     "author": "James Burke <jrburke@gmail.com> (http://github.com/jrburke)",
-
     "licenses": [
         {
             "type": "BSD",
@@ -15,30 +14,25 @@
             "url": "https://github.com/volojs/volo/blob/master/LICENSE"
         }
     ],
-
     "repository": {
         "type": "git",
         "url": "https://github.com/volojs/volo.git"
     },
-
     "bin": {
         "volo": "./bin/volo"
     },
-
     "engines": {
         "node": ">=0.8"
     },
-
     "dependencies": {
-        "q": "0.9.4",
-        "zip": "1.2.0",
-        "uglify-js": "1.2.6",
-        "shell-quote": "0.0.1",
-        "semver": "4.1.x",
         "colors": "0.6.0-1",
-        "glob": "3.2.1",
-        "which": "1.0.5"
+        "glob": "^8.0.3",
+        "q": "0.9.4",
+        "semver": "^4.3.6",
+        "shell-quote": "^1.7.3",
+        "uglify-js": "^3.15.5",
+        "which": "1.0.5",
+        "zip": "1.2.0"
     },
-
     "main": "volo"
 }
